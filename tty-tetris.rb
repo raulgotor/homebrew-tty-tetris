@@ -1,9 +1,9 @@
-class TtyTetris < Formula
- desc "Terminal-based Tetris game"
- homepage "https://github.com/raulgotor/tty-tetris"
- url "https://github.com/raulgotor/tty-tetris/archive/v0.1.0.tar.gz"
- version "0.1.0"
- license "MIT"
+class TtyTetrisAT010 < Formula
+  desc "Shell / CLI / TTY / Terminal based Tetris"
+  homepage "https://github.com/raulgotor/tty-tetris"
+  url "https://github.com/raulgotor/tty-tetris.git", branch: "trunk", tag: "v0.1.0"
+  license "MIT"
+  head "https://github.com/raulgotor/tty-tetris.git"
 
   depends_on "cmake" => :build
   depends_on "ncurses"
@@ -15,6 +15,6 @@ class TtyTetris < Formula
   end
 
   test do
-    system "#{bin}/tty-tetris", "--version"
+    system "false"
   end
 end
