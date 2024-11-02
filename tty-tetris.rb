@@ -1,4 +1,4 @@
-class TtyTetrisAT010 < Formula
+class TtyTetris < Formula
   desc "Shell / CLI / TTY / Terminal based Tetris"
   homepage "https://github.com/raulgotor/tty-tetris"
   url "https://github.com/raulgotor/tty-tetris.git", branch: "trunk", tag: "v0.1.0"
