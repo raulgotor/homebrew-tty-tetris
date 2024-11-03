@@ -1,7 +1,7 @@
 class TtyTetris < Formula
   desc "Shell / CLI / TTY / Terminal based Tetris"
   homepage "https://github.com/raulgotor/tty-tetris"
-  url "https://github.com/raulgotor/tty-tetris.git", branch: "trunk", tag: "v0.1.1"
+  url "https://github.com/raulgotor/tty-tetris.git", branch: "trunk", tag: "v0.1.2"
   license "MIT"
   head "https://github.com/raulgotor/tty-tetris.git"
 
